@@ -1,0 +1,16 @@
+const inputField = document.getElementById("inputField");
+const btn = document.getElementById("add");
+const output = document.getElementById("output");
+
+btn.addEventListener("click", () => {
+  const value = inputField.value;
+  if (!value) {
+    return;
+  }
+  inputField.value = " ";
+
+  const list = document.createElement("li");
+  list.textContent = value;
+
+  output.appendChild(list);
+});
