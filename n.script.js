@@ -3,7 +3,7 @@ const btn = document.getElementById("add");
 const output = document.getElementById("output");
 
 btn.addEventListener("click", () => {
-  const value = inputField.value;
+  const value = inputField.value.trim();
   if (!value) {
     return;
   }
