@@ -1,4 +1,4 @@
-@media (min-width: 768px){
+@media (max-width: 768px){
 .header{
     font-size: 50px;
 }
@@ -21,10 +21,16 @@
 
 ul{
     list-style: none;
-    background-color: antiquewhite;
-    width: 75%;
+    width: 55%;
     margin: auto;
-    text-align: start;
+    text-align: start;  
+}
+li{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: antiquewhite;
+    padding: 5px;
 }
 .home-notes{
     
