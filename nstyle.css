@@ -1,4 +1,4 @@
-@media (max-width: 768px){
+@media (min-width: 500px){
 .header{
     font-size: 50px;
 }
@@ -68,16 +68,5 @@ li{
 
 }
 
-/* Undecided
-.nav-bar{
-    display: flex;
-    position: fixed;
-    justify-content: space-between;
-    height: 56px;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    z-index: 1000;
-}
-    */
+
 }
