@@ -41,14 +41,20 @@ ul{
     margin: auto;
     text-align: start;  
     font-size: 1.2rem;
-    overflow-y: auto; 
+    
 }
 li{
+    display: flex;
+    justify-content: space-between;
     border: 1px solid black;
     border-radius: 5px;
     margin: 5px;
     background-color: antiquewhite;
     padding: 5px;
+    
+}
+
+.delete-btn{
     
 }
 .home-notes{

@@ -11,7 +11,10 @@ btn.addEventListener("click", () => {
 
   const list = document.createElement("li");
   list.textContent = value;
+
   const delBtn = document.createElement("button");
+  delBtn.classList.add("delete-btn");
+
   delBtn.addEventListener("click", () => {
     list.remove();
   });
