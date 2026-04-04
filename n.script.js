@@ -1,8 +1,6 @@
 const inputField = document.getElementById("inputField");
 const btn = document.getElementById("add");
 const output = document.getElementById("output");
-const delBtn = document.createElement("button");
-delBtn.className = "button-delete";
 
 btn.addEventListener("click", () => {
   const value = inputField.value.trim();
@@ -13,11 +11,11 @@ btn.addEventListener("click", () => {
 
   const list = document.createElement("li");
   list.textContent = value;
+  const delBtn = document.createElement("button");
+  delBtn.addEventListener("click", () => {
+    list.remove();
+  });
 
   output.appendChild(list);
   list.appendChild(delBtn);
-});
-
-delBtn.addEventListener("click", () => {
-  output.remove();
 });
