@@ -25,14 +25,22 @@
 
 .inp-btn button{
     display: inline;
+    border-radius: 15px;
+    border-style: none;
     width: 55px;
     height: 25px;
-    flex-shrink: 0; 
+    
+    
+     
 }
 .inp-btn input{
-    display: inline;
-    height: 20px;
+    
+    
+    border-radius: 1000px;
+    font-size: 20px;
+    height: 30px;
     width: 250px;
+    
 }
 
 ul{
