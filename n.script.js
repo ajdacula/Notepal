@@ -14,6 +14,7 @@ btn.addEventListener("click", () => {
 
   const delBtn = document.createElement("button");
   delBtn.classList.add("delete-btn");
+  delBtn.innerHTML = '<i class="fa-solid fa-trash-can"></i>';
 
   delBtn.addEventListener("click", () => {
     list.remove();
