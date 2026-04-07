@@ -1,4 +1,8 @@
 @media (min-width: 500px){
+*{
+    margin: 0;
+    padding: 0;
+}    
 .header{
     font-size: 50px;
 }
@@ -13,7 +17,7 @@
     border-radius: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
-    height: 90vh;
+    height: 100vh;
     background-color: aqua;
     justify-content: center;
     align-items: center;
@@ -23,6 +27,7 @@
     display: inline;
     width: 50%;
     justify-content: center;
+    
     
 }
 
@@ -39,34 +44,43 @@
      
 }
 .inp-btn input{
-    
-    
+    outline: none;
     border-radius: 1000px;
     font-size: 20px;
     height: 30px;
     width: 75%;
     
+    
 }
 
 ul{
+    display: flex;           
+    flex-direction: column;  
     list-style: none;
-    width: 90vw;
+    width: 90%;
     margin: auto;
-    text-align: start;  
     font-size: 1.2rem;
+            
+
+   
    
 
     
 }
 li{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    
     border: 1px solid black;
     border-radius: 5px;
-    
     background-color: antiquewhite;
     padding: 5px;
+    
+    
+}
+
+.item-container{
+    
     
     
 }
