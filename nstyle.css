@@ -20,7 +20,10 @@
     text-align: center;
 }
 .inp-btn{
- 
+    display: inline;
+    width: 50%;
+    justify-content: center;
+    
 }
 
 .inp-btn button{
@@ -28,7 +31,9 @@
     border-radius: 15px;
     border-style: none;
     width: 55px;
-    height: 25px;
+    height: 35px;   
+    
+    
     
     
      
@@ -39,26 +44,30 @@
     border-radius: 1000px;
     font-size: 20px;
     height: 30px;
-    width: 250px;
+    width: 75%;
     
 }
 
 ul{
     list-style: none;
-    width: 55%;
+    width: 90vw;
     margin: auto;
     text-align: start;  
     font-size: 1.2rem;
+   
+
     
 }
 li{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     border: 1px solid black;
     border-radius: 5px;
-    margin: 5px;
+    
     background-color: antiquewhite;
     padding: 5px;
+    
     
 }
 
