@@ -1,14 +1,11 @@
 @media (min-width: 500px){
-*{
+*{  
     margin: 0;
     padding: 0;
 }    
 .header{
     font-size: 50px;
 }
-#inputField, #add{
-    
-} 
 
 /* todo list container */
 .note-list{
@@ -23,12 +20,13 @@
     align-items: center;
     text-align: center;
 }
+.note-list h1{
+   transform: translateY(-150px);
+}
 .inp-btn{
     display: inline;
     width: 50%;
-    justify-content: center;
-    
-    
+    justify-content: center;    
 }
 
 .inp-btn button{
@@ -36,21 +34,13 @@
     border-radius: 15px;
     border-style: none;
     width: 55px;
-    height: 35px;   
-    
-    
-    
-    
-     
+    height: 35px;        
 }
-.inp-btn input{
-    outline: none;
+.inp-btn input{   
     border-radius: 1000px;
     font-size: 20px;
     height: 30px;
-    width: 75%;
-    
-    
+    width: 75%;   
 }
 
 ul{
@@ -59,24 +49,15 @@ ul{
     list-style: none;
     width: 90%;
     margin: auto;
-    font-size: 1.2rem;
-            
-
-   
-   
-
-    
+    font-size: 1.2rem;  
 }
 li{
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
     border: 1px solid black;
     border-radius: 5px;
     background-color: antiquewhite;
-    padding: 5px;
-    
-    
+    padding: 5px;    
 }
 
 .item-container{
