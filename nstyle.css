@@ -2,12 +2,14 @@
 *{  
     margin: 0;
     padding: 0;
+    font-size: 12px;
+    
 }    
 .header{
-    font-size: 50px;
+   font-size: 3rem;
 }
 
-/* todo list container */
+
 .note-list{
     
     display: grid;
@@ -22,6 +24,7 @@
 }
 .note-list h1{
    transform: translateY(-150px);
+   font-size: 3rem;
 }
 .inp-btn{
     display: inline;
@@ -36,20 +39,28 @@
     width: 55px;
     height: 35px;        
 }
-.inp-btn input{   
+.inp-btn input{ 
+    width: 100%;
+    max-width: 400px;  
+    padding: 16px 12px;
     border-radius: 1000px;
-    font-size: 20px;
+    font-size: 1.5rem;
     height: 30px;
     width: 75%;   
+    
 }
 
 ul{
     display: flex;           
     flex-direction: column;  
     list-style: none;
-    width: 90%;
-    margin: auto;
-    font-size: 1.2rem;  
+    padding: 15px;
+    width: 80%;
+    margin: 0;
+    position: sticky;
+    right: 50%;
+    transform: translateX(10%);
+     
 }
 li{
     display: flex;
@@ -57,7 +68,9 @@ li{
     border: 1px solid black;
     border-radius: 5px;
     background-color: antiquewhite;
-    padding: 5px;    
+    padding: 10px;  
+    margin-bottom: 10px;  
+    font-size: 1.5rem; 
 }
 
 .item-container{
