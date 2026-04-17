@@ -81,6 +81,19 @@ li{
 
 .delete-btn{
     
+    border-radius: 15px;
+    background: none;
+    border-style: none;
+    width: 55px;
+}
+.delete-btn :hover{
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: rgb(110, 110, 110);
+    border-style: none;
+    width: 25px;
+    height: 20px;
+    transition: ease-in(200ms);
 }
 .delete-btn img{
     
