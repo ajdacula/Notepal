@@ -9,9 +9,7 @@
    font-size: 3rem;
 }
 
-
-.note-list{
-    
+.note-list{  
     display: grid;
     border-radius: 15px;
     grid-template-columns: 1fr 1fr;
@@ -19,14 +17,13 @@
     height: 100vh;
     background-color: aqua;
     justify-content: center;
-    align-items: center;
     text-align: center;
 }
 .note-list h1{
-   transform: translateY(-150px);
    font-size: 3rem;
 }
 .inp-btn{
+   
     display: inline;
     width: 50%;
     justify-content: center;    
@@ -39,6 +36,7 @@
     width: 55px;
     height: 35px;        
 }
+
 .inp-btn input{ 
     width: 100%;
     max-width: 400px;  
@@ -51,31 +49,32 @@
 }
 
 ul{
-    display: flex;           
-    flex-direction: column;  
+    display: flex;
+    flex-direction: column;
     list-style: none;
     padding: 15px;
     width: 80%;
-    margin: 0;
-    position: sticky;
-    right: 50%;
-    transform: translateX(10%);
+    margin: 0 auto;
+    
      
 }
 li{
     display: flex;
     justify-content: space-between;    
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 6px;
     background-color: antiquewhite;
     padding: 10px;  
     margin-bottom: 10px;  
     font-size: 1.5rem; 
+   
 }
 
 .item-container{
     
-    
+    max-height: 400px;
+    overflow-y: auto;
+    overflow: scroll y;
     
 }
 
@@ -86,22 +85,24 @@ li{
     border-style: none;
     width: 55px;
 }
-.delete-btn :hover{
+.delete-btn:hover{
     cursor: pointer;
     border-radius: 15px;
     background-color: rgb(110, 110, 110);
     border-style: none;
     width: 25px;
-    height: 20px;
-    transition: ease-in(200ms);
+    
+   
 }
 .delete-btn img{
     
   
 }
 .home-notes{
+    margin-top: 100px;
     grid-column: 1/3;
     grid-row: 1;
+    
     
     
     
