@@ -20,6 +20,7 @@
     text-align: center;
 }
 .note-list h1{
+   margin: 15px; 
    font-size: 3rem;
 }
 .inp-btn{
@@ -71,7 +72,7 @@ li{
 }
 
 .item-container{
-    
+    margin: 10px;
     max-height: 400px;
     overflow-y: auto;
     overflow: scroll y;
@@ -90,7 +91,7 @@ li{
     border-radius: 15px;
     background-color: rgb(110, 110, 110);
     border-style: none;
-    width: 25px;
+  
     
    
 }
